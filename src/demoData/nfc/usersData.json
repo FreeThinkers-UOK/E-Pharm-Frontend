@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "firstname": "kamal",
+    "lastname": "kannan",
+    "email": "kann@gmail.com",
+    "role": {
+      "id": 3,
+      "name": "admin"
+    }
+  },
+  {
+    "id": 3,
+    "firstname": "ram",
+    "lastname": "rangan",
+    "email": "ram@gmail.com",
+    "role": {
+      "id": 2,
+      "name": "user"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[{
+    "key": "1",
+    "id": 1,
+    "name": "brinjal",
+    "price":300,
+    "category":{
+      "id": 1,
+      "name": "vegitable"
+    }
+  },
+  {
+    "key": "2",
+    "id": 2,
+    "name": "parai",
+    "price":300,
+    "category":{
+      "id": 2,
+      "name": "fish"
+    }
+  }]
