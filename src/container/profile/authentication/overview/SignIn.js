@@ -34,10 +34,10 @@ const SignIn = () => {
       </p> */}
       <div className="auth-contents">
         <Form name="login" form={form} onFinish={values => handleSubmit(values, form)} layout="vertical">
-          <Heading as="h3">Sign in</Heading>
+          <Heading as="h3">Sign In</Heading>
           <Form.Item
             name="email"
-            rules={[{ message: 'Please input your username or Email!', required: true }]}
+            rules={[{ message: 'Please input your User Name or Email!', required: true }]}
             initialValue="admin@admin.com"
             label="Username or Email Address"
           >
@@ -56,26 +56,7 @@ const SignIn = () => {
               {isLoading ? 'Loading...' : 'Sign In'}
             </Button>
           </Form.Item>
-          {/* <p className="form-divider">
-            <span>Or</span>
-          </p>
-          <ul className="social-login">
-            <li>
-              <Link className="google-signup" to="#">
-                <img src={require('../../../../static/img/google.png')} alt="" />
-              </Link>
-            </li>
-            <li>
-              <Link className="facebook-sign" to="#">
-                <FacebookOutlined />
-              </Link>
-            </li>
-            <li>
-              <Link className="twitter-sign" to="#">
-                <TwitterOutlined />
-              </Link>
-            </li>
-          </ul> */}
+      
         </Form>
       </div>
     </AuthWrapper>
