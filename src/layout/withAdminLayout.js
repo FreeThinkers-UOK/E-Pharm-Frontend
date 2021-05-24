@@ -165,18 +165,10 @@ const ThemeLayout = WrappedComponent => {
                       <img src={require(`../static/img/icon/${collapsed ? 'right.svg' : 'left.svg'}`)} alt="menu" />
                     </Button>
                   ) : null}
-                  {/* <Link
-                    className={topMenu && window.innerWidth > 991 ? 'striking-logo top-menu' : 'striking-logo'}
-                    to="/admin"
-                  >}
-                    <img
-                      src={!darkMode ? require(`../static/img/Logo_Dark.svg`) : require(`../static/img/Logo_white.png`)}
-                      alt=""
-                    />
-                  </Link> */}
+
                   <img
                     src={!darkMode ? require(`../static/img/logopharm.png`) : require(`../static/img/logopharm.png`)}
-                    alt=""
+                    alt="E-Pharm"
                     height="40"
                     width="399"
                   />
